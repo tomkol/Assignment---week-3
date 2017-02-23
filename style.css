@@ -99,12 +99,14 @@ body {
   text-align: right;
   color: yellow;
   margin-bottom: 20px;
+  float: right;
 }
 
 .left {
   float: left;
   width: 69%;
   padding-left: 10%;
+  margin-bottom: 70px;
 }
 
 .right {
@@ -123,7 +125,8 @@ body {
 
 a {
   text-decoration: none;
-  text-alight: right
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
 }
 
 em {
@@ -151,9 +154,6 @@ em {
   padding-top: 30px;
 }
 
-.cta {
-  text-align: center;
-}
 
 .signup {
   width: 100%;
@@ -163,17 +163,7 @@ em {
   clear: both;
 }
 
-button {
-  font-weight: 800;
-  font-size: 14px;
-  border-radius: 5px;
-  margin-top: 2rem;
-  color: white;
-  background-color: #033048;
-  border-color: #033048;
-  padding-left: 25px;
-  padding-right: 25px;
-}
+
 
 #copyright {
   color: white;
@@ -204,6 +194,7 @@ h3 {
 
 .right li {
   padding: 1px 0px;
+  font-size: 14px;
 }
 
 .left a {
@@ -213,6 +204,7 @@ h3 {
   font-weight: 600;
   float: right;
   clear: both;
+  text-transform: none;
 }
 
 h2 {
@@ -221,6 +213,48 @@ h2 {
   font-weight: 600;
 }
 
+p {
+  font-size: 14px;
+  color: grey;
+}
+
 .left p {
   font-size: 14px;
   color: grey;
+}
+
+.bottom-cta {
+  background: #f9e42e;
+  padding: 30px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.button {
+  border-radius: 5px;
+  font-weight: 800;
+  padding: 12px 0;
+  width: 250px;
+  font-size: 28px;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  border-radius: 2px;
+}
+
+.blue {
+  background: #033048;
+  color: #fff;
+  font-size: 16px;
+  text-transform: none;
+}
+
+br {
+  margin-bottom: 100px;
+}
+
+
+
+
+
+
